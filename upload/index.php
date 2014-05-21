@@ -1,4 +1,4 @@
-<?
+<?php
 	if (count($_POST) > 0)
 	{
 		$response = array();
@@ -44,6 +44,6 @@
 				<input id="file" type="file" name="file"> 
 				<input type="submit" value="upload"/>
 			</form>
-		<?
+		<?php
 	}
 ?>
